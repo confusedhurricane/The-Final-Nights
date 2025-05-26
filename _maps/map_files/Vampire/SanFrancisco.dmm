@@ -4849,8 +4849,15 @@
 /area/vtm/interior/cog/pantry)
 "bkZ" = (
 /obj/structure/closet,
-/obj/item/clothing/suit/toggle/labcoat/paramedic,
-/obj/item/clothing/suit/toggle/labcoat/paramedic,
+/obj/item/storage/firstaid/medical,
+/obj/item/storage/firstaid/medical,
+/obj/item/storage/firstaid/medical,
+/obj/item/storage/firstaid/brute,
+/obj/item/storage/firstaid/brute,
+/obj/item/storage/firstaid/brute,
+/obj/item/storage/firstaid/fire,
+/obj/item/storage/firstaid/fire,
+/obj/item/storage/firstaid/fire,
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/clinic)
 "bla" = (
@@ -18126,17 +18133,6 @@
 /obj/structure/sink/oil_well,
 /turf/open/floor/plating/stone,
 /area/vtm/interior/endron_facility/forest)
-"ePv" = (
-/obj/item/reagent_containers/glass/bottle/morphine,
-/obj/item/reagent_containers/glass/bottle/morphine,
-/obj/item/reagent_containers/glass/bottle/morphine,
-/obj/item/reagent_containers/glass/bottle/morphine,
-/obj/item/reagent_containers/glass/bottle/morphine,
-/obj/item/reagent_containers/glass/bottle/morphine,
-/obj/item/storage/box/syringes,
-/obj/structure/closet/secure_closet/medical2,
-/turf/open/floor/plating/vampplating/mono,
-/area/vtm/clinic)
 "ePx" = (
 /obj/effect/decal/bordur,
 /obj/effect/landmark/npcbeacon,
@@ -32772,6 +32768,7 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 4
 	},
+/obj/fusebox,
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/clinic)
 "iJz" = (
@@ -39111,11 +39108,6 @@
 /obj/structure/flora/ausbushes,
 /turf/open/floor/plating/vampgrass,
 /area/vtm/ghetto)
-"kvJ" = (
-/obj/structure/table,
-/obj/machinery/mineral/equipment_vendor/restricted/hospital,
-/turf/open/floor/plating/vampplating/mono,
-/area/vtm/clinic)
 "kvK" = (
 /obj/vampire_car/retro/rand,
 /turf/open/floor/plating/asphalt,
@@ -44125,11 +44117,6 @@
 /area/vtm/interior/endron_facility/restricted)
 "lNI" = (
 /obj/structure/table,
-/obj/item/storage/pill_bottle/ephedrine,
-/obj/item/storage/pill_bottle/ephedrine,
-/obj/item/storage/pill_bottle/ephedrine,
-/obj/item/storage/pill_bottle/ephedrine,
-/obj/item/storage/pill_bottle/ephedrine,
 /obj/machinery/light{
 	dir = 8
 	},
@@ -50611,13 +50598,7 @@
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/supply)
 "nxF" = (
-/obj/structure/table,
-/obj/item/defibrillator/compact,
-/obj/item/stock_parts/cell,
-/obj/item/stock_parts/cell,
-/obj/item/stock_parts/cell,
-/obj/item/stock_parts/cell,
-/obj/item/defibrillator/compact,
+/obj/clinic_machine/pyxis,
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/clinic)
 "nxL" = (
@@ -60556,17 +60537,12 @@
 /turf/open/floor/plating/vampocean,
 /area/vtm)
 "qaI" = (
-/obj/item/storage/pill_bottle/ephedrine,
-/obj/item/storage/pill_bottle/ephedrine,
-/obj/item/storage/pill_bottle/ephedrine,
-/obj/structure/closet/crate/medical,
-/obj/item/storage/pill_bottle/epinephrine,
-/obj/item/storage/pill_bottle/epinephrine,
-/obj/item/storage/pill_bottle/iron,
-/obj/item/storage/pill_bottle/iron,
-/obj/item/storage/pill_bottle/iron,
-/obj/item/storage/pill_bottle/epinephrine,
-/obj/item/storage/pill_bottle/mutadone,
+/obj/structure/filingcabinet/chestdrawer{
+	pixel_x = 6
+	},
+/obj/structure/filingcabinet/medical{
+	pixel_x = -9
+	},
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/clinic)
 "qaQ" = (
@@ -81943,22 +81919,6 @@
 	},
 /turf/open/floor/plating/vampgrass,
 /area/vtm/pacificheights/forest)
-"vGc" = (
-/obj/structure/closet,
-/obj/item/clothing/under/vampire/nurse,
-/obj/item/clothing/under/vampire/nurse,
-/obj/item/clothing/under/vampire/nurse,
-/obj/item/clothing/suit/vampire/labcoat,
-/obj/item/clothing/suit/vampire/labcoat,
-/obj/item/clothing/suit/vampire/labcoat,
-/obj/item/clothing/gloves/vampire/latex,
-/obj/item/clothing/gloves/vampire/latex,
-/obj/item/clothing/gloves/vampire/latex,
-/obj/item/clothing/accessory/armband/medblue,
-/obj/item/clothing/accessory/armband/medblue,
-/obj/item/clothing/accessory/armband/medblue,
-/turf/open/floor/plating/vampplating/mono,
-/area/vtm/clinic)
 "vGh" = (
 /obj/effect/decal/trash,
 /obj/effect/decal/graffiti,
@@ -83428,22 +83388,6 @@
 "vZU" = (
 /turf/open/floor/carpet/royalblack,
 /area/vtm/church/interior/haven)
-"vZV" = (
-/obj/structure/closet,
-/obj/item/storage/firstaid/medical,
-/obj/item/storage/firstaid/medical,
-/obj/item/storage/firstaid/medical,
-/obj/item/storage/firstaid/brute,
-/obj/item/storage/firstaid/brute,
-/obj/item/storage/firstaid/brute,
-/obj/item/storage/firstaid/fire,
-/obj/item/storage/firstaid/fire,
-/obj/item/storage/firstaid/fire,
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/plating/vampplating/mono,
-/area/vtm/clinic)
 "vZW" = (
 /obj/structure/vampdoor/wood{
 	lock_id = "clinic";
@@ -84150,7 +84094,6 @@
 /obj/structure/chair/office{
 	dir = 8
 	},
-/obj/fusebox,
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/clinic)
 "wkq" = (
@@ -185550,7 +185493,7 @@ jcx
 jcx
 jcx
 bkT
-pAg
+cur
 jcx
 jcx
 hNZ
@@ -187346,9 +187289,9 @@ iog
 bUt
 bUt
 bUt
-jZg
-ePv
-vZV
+nxF
+gpO
+jcx
 jcx
 lVs
 bUt
@@ -187861,10 +187804,10 @@ bUt
 fhi
 miG
 mwF
-vGc
+jZg
 bkZ
 jcx
-nxF
+uFS
 bUt
 djl
 jcx
@@ -188640,7 +188583,7 @@ axs
 axs
 iCf
 bUt
-uFS
+pAg
 jcx
 jcx
 jcx
@@ -191722,7 +191665,7 @@ eQw
 iLl
 uKN
 uTu
-kvJ
+cur
 pkx
 jcx
 bkT
