@@ -718,11 +718,11 @@
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/pacificheights)
 "zk" = (
-/obj/vampire_car/track/ambulance{
-	dir = 4;
-	locked = 0
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "debughouse"
 	},
-/turf/open/floor/plating/asphalt,
+/obj/vampire_car/emergency/police,
+/turf/open/floor/plating/rough,
 /area/vtm/pacificheights)
 "zv" = (
 /mob/living/carbon/human/npc/shop,
@@ -1114,6 +1114,12 @@
 /obj/structure/trashbag,
 /turf/open/floor/plating/vampbeach,
 /area/vtm/pacificheights)
+"JQ" = (
+/obj/vampire_car/emergency/ambulance{
+	dir = 2
+	},
+/turf/open/floor/plating/rough,
+/area/vtm/pacificheights)
 "Kt" = (
 /obj/structure/table/wood,
 /obj/machinery/mineral/equipment_vendor/fastfood/pharmacy,
@@ -1233,10 +1239,8 @@
 /turf/open/floor/plating/rough,
 /area/vtm/interior/shop)
 "OB" = (
-/obj/vampire_car/police{
-	locked = 0
-	},
-/turf/open/floor/plating/asphalt,
+/obj/vampire_car/emergency/police,
+/turf/open/floor/plating/rough,
 /area/vtm/pacificheights)
 "OD" = (
 /obj/structure/table,
@@ -1854,7 +1858,7 @@ NR
 cj
 ik
 VQ
-zk
+ik
 Fs
 NR
 NR
@@ -1977,7 +1981,7 @@ eR
 PO
 PO
 PO
-PO
+JQ
 PO
 PO
 PO
@@ -2045,7 +2049,7 @@ MS
 eg
 PO
 PO
-PO
+JQ
 PO
 PO
 PO
@@ -2146,13 +2150,13 @@ rK
 bC
 PO
 PO
+OB
 PO
+OB
 PO
+OB
 PO
-PO
-PO
-PO
-Ev
+zk
 lk
 oK
 wD
@@ -2532,7 +2536,7 @@ gF
 Fg
 ap
 OH
-OB
+ik
 VQ
 ik
 Fs
