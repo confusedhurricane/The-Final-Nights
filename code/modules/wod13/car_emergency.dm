@@ -293,6 +293,7 @@
 
 /obj/vampire_car/emergency/police/unmarked
 	name = "car"
+	icon_state = "unmarked"
 	desc = "Take me home, country roads..."
 
 /obj/vampire_car/emergency/police/unmarked/Initialize(mapload)
